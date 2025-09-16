@@ -19,3 +19,9 @@ p{
   line-height: 2rem;
   font-size: 1rem;
 }
+
+p.callout{
+  font-size:2rem;
+  line-height: auto;
+  font-style: italic;
+}
