@@ -42,3 +42,42 @@ p.callout {
     margin-left: calc(100% *2/ 6);
 
 }
+
+
+/* ***************************************************** */
+/*                    CSS for index2 */
+/* ***************************************************** */
+
+
+body#secondLayout main{
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(4, auto);
+}
+
+#secondLayout #titleRow {
+  grid-area: title;
+}
+
+#secondLayout #para1
+{
+  grid-area: p1;
+}
+
+#secondLayout #para2
+{
+  grid-area: p2;
+}
+
+#secondLayout #para3
+{
+  grid-area: p3;
+}
+
+#secondLayout #para4
+{
+  grid-area: p4;
+}
+
+#secondLayout p {
+  width: 100%;
+}
