@@ -27,6 +27,7 @@ p.callout {
   line-height: 2 rem;
   font-style: italic;
   float: right;
+  padding-left: 2em;
 }
 
 #row1 p,
