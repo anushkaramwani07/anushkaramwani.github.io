@@ -35,7 +35,7 @@ p.callout {
 #row1 p,
 #row3 p
 {
-  margin-left: calc(100% *1/ 6);
+  margin-left: calc(100% *0/ 6);
 }
 
 #row4 p{
@@ -80,4 +80,8 @@ body#secondLayout main{
 
 #secondLayout p {
   width: 100%;
+}
+
+#secondLayout #callout1 {
+  padding-left: 0;
 }
