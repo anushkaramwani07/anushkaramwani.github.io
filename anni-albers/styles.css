@@ -46,6 +46,7 @@ p.callout {
 }
 
 
+
 /* ***************************************************** */
 /*                    CSS for index2 */
 /* ***************************************************** */
@@ -60,30 +61,10 @@ body#secondLayout main{
   grid-area: title;
 }
 
-#secondLayout #para1
+#secondLayout #about
 {
-  grid-area: p1;
-}
-
-#secondLayout #para2
-{
-  grid-area: p2;
-}
-
-#secondLayout #para3
-{
-  grid-area: p3;
-}
-
-#secondLayout #para4
-{
-  grid-area: p4;
-}
-
-#secondLayout p {
-  width: 100%;
-}
-
-#secondLayout #callout1 {
-  padding-left: 0;
+  width: 40%;
+  margin-bottom:5em;
+  font-size: 24px;
+  font-family:Georgia, 'Times New Roman', Times, serif 
 }
