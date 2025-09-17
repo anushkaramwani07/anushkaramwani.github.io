@@ -32,15 +32,23 @@ p.callout {
   margin-top: 0;
 }
 
-#row1 p,
-#row2 p,
-#row3 p,
-#row4 p
+#row1 p
 {
-  margin-left: calc(100% *0/ 6);
+grid-column: calc(1/7);
 }
 
+#row2 p{
+  grid-column: 1/ 4;
+}
 
+#row3 p{
+  grid-column: 4/7;
+}
+
+#row4 p
+{
+  grid-column: 2/6;
+}
 
 /* ***************************************************** */
 /*                    CSS for index2 */
