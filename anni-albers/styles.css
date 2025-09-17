@@ -39,7 +39,7 @@ p.callout {
 }
 
 #row4 p{
-    margin-left: calc(100% *2/ 6);
+    margin-left: calc(100% *0/ 6);
 
 }
 
@@ -51,7 +51,7 @@ p.callout {
 
 body#secondLayout main{
   grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: 100vh repeat(4, auto);
 }
 
 #secondLayout #titleRow {
