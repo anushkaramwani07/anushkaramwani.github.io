@@ -38,16 +38,16 @@ grid-column: calc(1/7);
 }
 
 #row2 p{
-  grid-column: 1/ 4;
+  grid-column: calc(1/ 4);
 }
 
 #row3 p{
-  grid-column: 4/7;
+  grid-column: calc(4/7);
 }
 
 #row4 p
 {
-  grid-column: 2/6;
+  grid-column: calc(2/6);
 }
 
 /* ***************************************************** */
