@@ -54,5 +54,17 @@ grid-column: calc(1/7);
 
 table,th,td{
   border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+#about{
+  text-align: center;
+  font-size: medium;
+  font-style: italic;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
