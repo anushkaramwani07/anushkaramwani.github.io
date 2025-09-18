@@ -64,10 +64,10 @@ table,th,td{
   columns: 6;
   column-gap: 2em;
   width: 80%;
-  
+
 }
 
-#about{
+#aboutauthor, #moreabout {
   text-align: center;
   font-size: medium;
   font-style: italic;
