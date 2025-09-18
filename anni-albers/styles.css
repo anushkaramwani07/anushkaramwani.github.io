@@ -51,21 +51,3 @@ grid-column: calc(1/7);
 /* ***************************************************** */
 /*                    CSS for index2 */
 /* ***************************************************** */
-
-
-body#secondLayout main{
-  grid-template-columns: repeat(6, auto);
-  grid-template-rows: 100vh repeat(4, auto);
-}
-
-#secondLayout #titleRow {
-  grid-area: title;
-}
-
-#author 
-{
-  width: 40%;
-  margin-bottom:5em;
-  font-size: 24px;
-  font-family:Georgia, 'Times New Roman', Times, serif 
-}
